@@ -1,0 +1,48 @@
+Models
+
+	Teacher
+		User
+		Class_Template
+	
+	Subject
+		course code
+		Class_Template
+
+	Class_Template
+		name
+		session
+		Teacher
+
+	Term
+		UUID
+		choice(First,Second,Third)
+		Class
+			
+	Result
+		UUID
+		User
+		Term
+		get_position()
+		Class_Template
+		Comment
+
+	Comment
+		UUID
+		User
+		commnet
+		
+	Ticket
+		UUID
+		Ticket
+		Result
+	
+	Communication Book
+		User
+		Comment
+	
+
+	Profile
+		User
+		Image
+		
+		
